@@ -63,4 +63,16 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-OJ0UMFB-releases</name>
+        <url>http://localhost:8081/artifactory/JfrogMavenRepo</url>
+    </repository>
+    <snapshotRepository>
+        <id>central</id>
+        <name>DESKTOP-OJ0UMFB-snapshots</name>
+        <url>http://localhost:8081/artifactory/JfrogMavenRepo</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
